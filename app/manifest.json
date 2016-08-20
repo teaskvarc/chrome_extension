@@ -43,10 +43,11 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://trello.com/c/*",
+        "https://trello.com/c/*"
       ],
       "js": [
+        "bower_components/jquery/dist/jquery.slim.min.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",
