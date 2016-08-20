@@ -43,8 +43,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://trello.com/c/*",
-        "https://trello.com/c/*"
+        "http://*/*",
+        "https://*/*"
       ],
       "js": [
         "bower_components/jquery/dist/jquery.slim.min.js",
@@ -55,7 +55,7 @@
     }
   ],
   "omnibox": {
-    "keyword": "OMNIBOX-KEYWORD"
+    "keyword": "Tracker"
   },
   "browser_action": {
     "default_icon": {

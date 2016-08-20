@@ -1,4 +1,33 @@
 body {
   padding: 20px;
-  width: 200px;
+  width: 250px;
+}
+
+#my-input{
+
+  border: 1px solid #f3f3f3;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 6px;
+
+}
+
+#my-input:focus{
+
+  outline: none;
+}
+
+.btn{
+
+  padding: 7px 15px;
+  background-color: #00d6b2;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 100;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+
+
 }

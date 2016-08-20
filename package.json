@@ -1,5 +1,5 @@
 {
-  "name": "extension-for-trello",
+  "name": "Trello Tracker",
   "private": true,
   "engines": {
     "node": ">=0.8.0"
