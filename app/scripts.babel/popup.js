@@ -2,7 +2,10 @@
 
 console.log('\'Allo \'Allo! Popup');
 
-const urls = ['http://youtube.com/results?search_query=', 'http://vimeo.com/search?q=', 'http://vid.me/search?q='];
+/*
+
+const urls = ['http://youtube.com/results?search_query=', 'http://vimeo.com/search?q=',
+  'http://vid.me/search?q=','http://www.google.si/#q='];
 
 
 $('#search-btn').on('click', ()=>{
@@ -18,5 +21,18 @@ $('#search-btn').on('click', ()=>{
 
     });
   }
+
+});
+
+*/
+
+$('#search-btn').on('click', ()=>{
+
+  const from = $('#from-input').val();
+  const to = $('#to-input').val();
+
+  // rabimo odpreti novi tab
+
+  chrome.tabs.create({ url: `https://www.google.si/maps/dir/${from}/${to}/` });
 
 });
